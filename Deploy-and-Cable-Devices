@@ -1,0 +1,5 @@
+Somethings to consider when understanding this objective is you have to be able to build a basic local area network (LAN) topology in Cisco Packet Tracer. You will also have to know what cables to select for the correct hardware models, and placing them in the logical workspace, and establishing physical connections using appropriate Ethernet cabling standards.
+I had to place two Cisco 2960 Switches ('Switch0' and 'Switch1') onto the workspace. I also had to place 6 computers on the workspace as well. I placed computers PC0 through PC5.
+I also connected Host-to-Switch 'PC0'-'PC2' to 'Switch0' ('Fa0/1' - 'Fa0/3') and 'PC3 - 'PC3 - 'PC5 to 'Switch1' ('fa0/1'-'Fa0/3') using Copper Straight-Through cables. Using Switch to Switch connection  I connected 'Switch0' ('Gig0/') to 'Switch1' (Gi0/1') using a Copper Cross-Over cable.
+Some challenges I encountered was determining the correct cable to use with the connections.
+Some things I learned unlike devices (PC to Switch) require straight-through cables, while like devices (Switch to Switch) require cross-over cables when Auto-MDIX is not relied upon.
